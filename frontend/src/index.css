@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply font-body text-ink bg-paper antialiased;
+}
+
+@layer components {
+  /* mono eyebrow label — the datasheet signature */
+  .eyebrow {
+    @apply font-mono text-xs tracking-[0.25em] uppercase text-sun;
+  }
+  .eyebrow-dark {
+    @apply font-mono text-xs tracking-[0.25em] uppercase text-steel;
+  }
+
+  .h-display {
+    @apply font-display font-bold uppercase leading-[0.95] tracking-tight;
+  }
+
+  .btn-solid {
+    @apply inline-block bg-sun text-ink font-display font-semibold uppercase tracking-wider rounded-xl text-lg px-7 py-3 hover:bg-sunDark transition-colors;
+  }
+  .btn-line {
+    @apply inline-block border border-mist/60 text-paper font-display font-semibold uppercase tracking-wider text-lg px-7 py-3 hover:border-sun hover:text-sun transition-colors;
+  }
+  .btn-line-dark {
+    @apply inline-block border border-steel/40 text-ink font-display font-semibold uppercase tracking-wider text-lg px-7 py-3 hover:border-sun hover:text-sunDark transition-colors;
+  }
+
+  /* spec-sheet row */
+  .spec-row {
+    @apply flex items-start gap-3 py-2.5 border-b border-steel/15 text-[15px] text-steel;
+  }
+}
+
+/* engineering grid backdrop for dark hero sections */
+.grid-bg {
+  background-image:
+    linear-gradient(rgba(154, 167, 176, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(154, 167, 176, 0.08) 1px, transparent 1px);
+  background-size: 44px 44px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  * { animation: none !important; transition: none !important; }
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(.96);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn .3s ease;
+}
