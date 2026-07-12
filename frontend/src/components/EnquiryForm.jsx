@@ -11,10 +11,10 @@ const initial = {
   file: null,
 }
 
-const ENQUIRY_API_URL = 'http://localhost/backend/api/contact.php'
+const ENQUIRY_API_URL = '/backend/api/contact.php'
 // const ENQUIRY_API_URL = 'https://finekotindustries.com/backend/api/contact.php'
 
-const PRODUCTS_API_URL = 'http://localhost/backend/api/products.php'
+const PRODUCTS_API_URL = '/backend/api/products.php'
 // const PRODUCTS_API_URL = 'https://finekotindustries.com/backend/api/products.php'
 
 export default function EnquiryForm() {

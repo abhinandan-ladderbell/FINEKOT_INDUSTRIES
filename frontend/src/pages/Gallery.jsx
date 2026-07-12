@@ -18,7 +18,7 @@ export default function Gallery() {
 
   const [selectedImage, setSelectedImage] = useState(null);
   useEffect(() => {
-    fetch("http://localhost/backend/api/gallery.php")
+    fetch("/backend/api/gallery.php")
       .then((res) => res.json())
       .then((data) => {
         if (data.success) {
