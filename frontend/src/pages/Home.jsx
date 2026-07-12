@@ -114,7 +114,7 @@ export default function Home() {
           {/* Heading */}
           <h1 className="mt-7 font-extrabold leading-[0.95]">
             <span className="block text-[#0B2343] text-[43px]">
-              Solar 
+              Solar Mounting
             </span>
             <span className="block mt-2 text-[#F59E0B] text-[62px]">
               Structures
