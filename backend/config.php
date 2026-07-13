@@ -75,7 +75,7 @@ define('ADMIN_PASSWORD_HASH', password_hash('admin', PASSWORD_DEFAULT));
 // than this backend (e.g. localhost/backend), so a relative path like
 // '/backend/uploads/gallery/' resolves against the FRONTEND's origin in the
 // browser and the images 404. Always include the scheme + host.
-define('BACKEND_BASE_URL', getenv('BACKEND_BASE_URL') ?: 'http://finekotindustries.com/backend');
+define('BACKEND_BASE_URL', getenv('BACKEND_BASE_URL') ?: 'https://finekotindustries.com/backend');
 // Change BACKEND_BASE_URL above to 'https://finekotindustries.com/backend' on Hostinger.
 
 define('UPLOAD_DIR', __DIR__ . '/uploads/gallery/');
