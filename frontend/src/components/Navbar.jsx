@@ -26,6 +26,7 @@ export default function Navbar() {
       <div className="hidden md:flex justify-end gap-6 px-6 py-1 font-semibold border-b bg-white border-steel/20 font-mono text-[11px] text-ink tracking-wider">
         <a href={`mailto:${company.email}`} className=" hover:text-sun">{company.email}</a>
         <a href={`tel:+91${company.phones[0]}`} className="hover:text-sun">+91-{company.phones[0]}</a>
+        <a href={`tel:+91${company.phones[1]}`} className="hover:text-sun">+91-{company.phones[1]}</a>
       </div>
 
       <div className="flex items-center  justify-between px-4 sm:px-6 h-20">

@@ -157,13 +157,22 @@ export default function Home() {
       <div className="relative order-last h-[760px] -mt-10 overflow-hidden">
 
         {/* Desktop White Shape */}
-        <div
-          className="absolute -left-1 top-0 h-full w-56 bg-[#f7f8fb] z-20"
-          style={{
-            clipPath: "polygon(0 0,100% 0,53% 50%,100% 100%,0 100%)",
-            height: "101%",
-          }}
-        />
+<div
+  className="absolute left-0 top-0 h-full w-[235px] bg-[#3FA34D] z-20"
+  style={{
+    clipPath: "polygon(0 0,100% 0,53% 50%,100% 100%,0 100%)",
+    height: "101%",
+  }}
+/>
+
+{/* White Shape (Front) */}
+<div
+  className="absolute left-0 top-0 h-full w-[225px] bg-[#F7F9F6] z-30"
+  style={{
+    clipPath: "polygon(0 0,100% 0,53% 50%,100% 100%,0 100%)",
+    height: "101%",
+  }}
+/>
 
         {/* Hero Image */}
         <img
@@ -291,30 +300,30 @@ export default function Home() {
                         {/* Mobile Stats */}
 
             <div className="mt-7 grid grid-cols-2 gap-4 lg:hidden">
+<div>
 
-              <div className="rounded-xl bg-white/10 p-4 backdrop-blur">
-
-                <h3 className="text-2xl font-bold text-[#F59E0B]">
-                  05+
+                <h3 className="text-2xl font-black text-[#F59E0B]">
+                  70MW+ 
                 </h3>
 
-                <p className="mt-1 text-xs uppercase tracking-wider text-white/70">
-                  Years Experience
+                <p className="mt-1 text-sm text-white/70">
+                  Rooftop Structures
                 </p>
 
               </div>
 
-              <div className="rounded-xl bg-white/10 p-4 backdrop-blur">
+              <div>
 
-                <h3 className="text-2xl font-bold text-[#F59E0B]">
-                  PAN
+                <h3 className="text-2xl font-black text-[#F59E0B]">
+                  30MW+  
                 </h3>
 
-                <p className="mt-1 text-xs uppercase tracking-wider text-white/70">
-                  India Supply
+                <p className="mt-1 text-sm text-white/70">
+                  Ground Mounted Structures
                 </p>
 
               </div>
+
 
             </div>
 
@@ -325,16 +334,40 @@ export default function Home() {
               <div>
 
                 <h3 className="text-2xl font-black text-[#F59E0B]">
-                  05+
+                  70MW+ 
                 </h3>
 
                 <p className="mt-1 text-sm text-white/70">
-                  Years Experience
+                  Rooftop Structures
                 </p>
 
               </div>
 
               <div>
+
+                <h3 className="text-2xl font-black text-[#F59E0B]">
+                  30MW+  
+                </h3>
+
+                <p className="mt-1 text-sm text-white/70">
+                  Ground Mounted Structures
+                </p>
+
+              </div>
+
+              <div>
+
+                <h3 className="text-2xl font-black text-[#F59E0B]">
+                  15000+
+                </h3>
+
+                <p className="mt-1 text-sm text-white/70">
+                  Agricultural Pumping Structures
+                </p>
+
+              </div>
+
+                 <div>
 
                 <h3 className="text-2xl font-black text-[#F59E0B]">
                   PAN
@@ -342,30 +375,6 @@ export default function Home() {
 
                 <p className="mt-1 text-sm text-white/70">
                   India Delivery
-                </p>
-
-              </div>
-
-              <div>
-
-                <h3 className="text-2xl font-black text-[#F59E0B]">
-                  1000+
-                </h3>
-
-                <p className="mt-1 text-sm text-white/70">
-                  Structures Delivered
-                </p>
-
-              </div>
-
-              <div>
-
-                <h3 className="text-2xl font-black text-[#F59E0B]">
-                  HDG
-                </h3>
-
-                <p className="mt-1 text-sm text-white/70">
-                  Premium Steel
                 </p>
 
               </div>
@@ -400,13 +409,14 @@ export default function Home() {
 
           <p className="mt-6 text-[15px] leading-7 text-gray-600 lg:text-[14px] lg:leading-7">
 
-            {about.intro[0]}
+            {about.intro2[0]}
 
           </p>
 
           <p className="hidden lg:block mt-4 text-[14px] leading-7 text-gray-600">
 
-            {about.intro[2]}
+            {about.intro2[1]}
+            {about.intro2[2]}
 
           </p>
                     {/* Features */}

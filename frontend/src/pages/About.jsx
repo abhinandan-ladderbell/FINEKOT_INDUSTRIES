@@ -6,41 +6,49 @@ export default function About() {
   return (
     <>
       {/* page header */}
-    <section
-  className="relative overflow-hidden"
-  style={{
-    backgroundImage:
-      "url('https://images.unsplash.com/photo-1625246333195-78d9c38ad449?auto=format&fit=crop&w=1200&q=70')",
-    backgroundSize: "cover",
-    backgroundPosition: "center",
-  }}
->
-  {/* Dark Overlay */}
-  <div className="absolute inset-0 bg-gradient-to-r from-black/85 via-black/65 to-black/40"></div>
+      <section
+        className="relative overflow-hidden"
+        style={{
+          backgroundImage:
+            "url('https://images.unsplash.com/photo-1625246333195-78d9c38ad449?auto=format&fit=crop&w=1200&q=70')",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
+        {/* Dark Overlay */}
+        <div className="absolute inset-0 bg-gradient-to-r from-black/85 via-black/65 to-black/40"></div>
 
-  {/* Content */}
-  <div className="relative z-10 mx-auto max-w-7xl px-6 py-16">
-    <p className="eyebrow text-yellow-400">About Us</p>
+        {/* Content */}
+        <div className="relative z-10 mx-auto max-w-7xl px-6 py-16">
+          <p className="eyebrow text-yellow-400">About Us</p>
 
-    <h1 className="mt-2 text-5xl font-bold leading-tight text-white sm:text-6xl">
-      The Company Behind
-      <br />
-      the <span className="text-yellow-400">Structures</span>
-    </h1>
+          <h1 className="mt-2 text-5xl font-bold leading-tight text-white sm:text-6xl">
+            The Company Behind
+            <br />
+            the <span className="text-yellow-400">Structures</span>
+          </h1>
 
-    <p className="mt-6 max-w-2xl text-lg leading-8 text-gray-200">
-      Finekot is committed to delivering precision-engineered steel
-      fabrication and solar mounting solutions with a focus on quality,
-      durability, and innovation for projects across India.
-    </p>
-  </div>
-</section>
+          <p className="mt-6 max-w-2xl text-lg leading-8 text-gray-200">
+            Finekot is committed to delivering precision-engineered steel
+            fabrication and solar mounting solutions with a focus on quality,
+            durability, and innovation for projects across India.
+          </p>
+        </div>
+      </section>
       {/* intro + facts */}
       <section className="mx-auto max-w-7xl px-6 py-16 grid gap-12 lg:grid-cols-[1fr_360px]">
         <div className="space-y-5 text-steel leading-relaxed text-[17px]">
-          {about.intro.map((p, i) => (
-            <p key={i}>{p}</p>
-          ))}
+          <p>
+            At Finekot Industries India Pvt. Ltd., we believe that every successful project begins with a strong foundation. As a manufacturer of solar mounting structures, agricultural pumping structures, fencing systems, and customized fabrication solutions, we are dedicated to delivering products that combine structural integrity, precision engineering, and lasting performance.
+
+            Our approach is driven by innovation, quality, and a deep understanding of industry requirements. Every solution is carefully designed and manufactured using modern production techniques, premium-grade materials, and strict quality standards to ensure reliability in diverse operating conditions.
+
+            We understand that every project is unique. That's why we work closely with our clients to develop customized solutions that align with their technical specifications, timelines, and budgets. Whether serving renewable energy installations, agricultural applications, industrial facilities, or infrastructure projects, we strive to deliver products that create long-term value.
+
+            What sets us apart is our commitment to consistency, transparency, and continuous improvement. From product development to final delivery, our experienced team focuses on maintaining the highest standards of craftsmanship while ensuring timely execution and dependable customer support.
+
+            As India's infrastructure and renewable energy sectors continue to evolve, Finekot Industries remains committed to providing innovative structural solutions that help build a stronger, more sustainable future. Our vision is to be a trusted manufacturing partner, recognized for quality, reliability, and engineering excellence in every project we undertake.
+          </p>
         </div>
 
         {/* datasheet card */}

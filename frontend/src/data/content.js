@@ -11,7 +11,7 @@ export const company = {
   directors: ['Chaitanya Rode', 'Shantanu Rode'],
   cin: 'U40106MH2020PTC344009',
   email: 'finekotindustries@gmail.com',
-  phones: ['9673380640'],
+  phones: ['9673380640','7030168899'],
   factoryAddress:
     'Plot No. A80, Paithan MIDC, Tal. Paithan, Dist. Chh. Sambhajinagar, Maharashtra',
 }
@@ -21,6 +21,12 @@ export const about = {
     'Finekot Industries India Pvt. Ltd. is a leading manufacturer and supplier of high-quality solar mounting structures, agricultural pumping structures, fencing systems, and customized fabrication solutions. With a strong focus on engineering excellence, durability, and customer satisfaction, we provide reliable structural solutions for residential, commercial, industrial, and government projects across India.',
     'Our expertise lies in designing and manufacturing structures that deliver superior strength, long service life, and cost-effective performance under diverse environmental conditions. By combining advanced manufacturing processes, stringent quality control, and technical expertise, we ensure that every product meets industry standards and project-specific requirements.',
     "We are committed to supporting India's renewable energy growth by delivering innovative and dependable infrastructure solutions that help maximize project efficiency and long-term value.",
+    
+  ],
+  intro2:[
+     'At Finekot Industries India Pvt. Ltd., we manufacture high-quality structural solutions that customers can rely on. From solar mounting systems and agricultural pumping structures to fencing and custom fabrication, our products are designed to deliver durability, precision, and long-lasting performance.',
+  'We work closely with clients to understand their project requirements and provide customized solutions that meet both technical specifications and budget expectations. Our experienced team, advanced manufacturing capabilities, and strict quality assurance ensure consistent results in every project.',
+  "By combining engineering expertise with a customer-first approach, we continue to contribute to India's infrastructure and renewable energy development through reliable and innovative structural solutions.",
   ],
   vision:
     'To be the Global Leader in the field of Structural Manufacturing.',
